@@ -1,0 +1,11 @@
+# TLS certificates and private keys
+*.key
+*.crt
+*.csr
+
+# Kubernetes secrets with real values
+secret-tls.yaml
+
+# Kubeconfig files
+*.kubeconfig
+kubeconfig

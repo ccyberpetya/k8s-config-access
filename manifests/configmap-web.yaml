@@ -1,0 +1,28 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: web-content
+data:
+  index.html: |
+    <!DOCTYPE html>
+    <html lang="ru">
+    <head>
+      <meta charset="UTF-8">
+      <title>ConfigMap в Kubernetes</title>
+    </head>
+    <body>
+      <h1>Привет от Kubernetes!</h1>
+      <p>Эта веб-страница подключена в nginx через ConfigMap.</p>
+      <p>Домашнее задание Netology 2.3.</p>
+    </body>
+    </html>
+
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: multitool-config
+data:
+  HTTP_PORT: "8080"
+  HTTPS_PORT: "8443"
