@@ -1,10 +1,10 @@
 # 01
-![Список Pod](screenshots/01.png)
+![Список Pod](manifests/screenshots/01.png)
 # 02
-![Логи nginx](screenshots/02.png)
+![Логи nginx](manifests/screenshots/02.png)
 # 03
-![Удаление Pod запрещено](screenshots/03.png)
+![Удаление Pod запрещено](manifests/screenshots/03.png)
 # 04
-![Просмотр secret запрещено](screenshots/04.png)
+![Просмотр secret запрещено](manifests/screenshots/04.png)
 # 05
-![Проверка прав](screenshots/05.png)
+![Проверка прав](manifests/screenshots/05.png)
